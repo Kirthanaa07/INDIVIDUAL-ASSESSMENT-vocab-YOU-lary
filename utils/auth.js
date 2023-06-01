@@ -7,6 +7,7 @@ const signIn = () => {
 };
 
 const signOut = () => {
+  document.querySelector('#app').innerHTML = '';
   firebase.auth().signOut();
 };
 
