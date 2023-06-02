@@ -1,6 +1,7 @@
 import renderToDOM from '../../utils/renderToDom';
 
 const domBuilder = () => {
+  // Created HTML
   const domString = `
   <header>
   <div>

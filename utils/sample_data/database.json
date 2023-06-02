@@ -1,0 +1,34 @@
+{
+  "vocabulary": {
+    "-NWte5ikMaBe-R8glBLk": {
+      "vocabulary_id": "-NWte5ikMaBe-R8glBLk",
+      "title": "Attribute",
+      "definition": "Attributes are special words used inside the opening tag to control an HTML Element's behavior.",
+      "isPublic": false,
+      "language_tech_id": "-NWtgOQXhnfBYYK1i_mP",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62"
+    },
+    "-NWtpbtAHdyWMKCzuXsT": {
+      "vocabulary_id": "-NWtpbtAHdyWMKCzuXsT",
+      "title": "Browser",
+      "definition": "The program you use to access the Web — such as Chrome, Firefox, or Safari.",
+      "isPublic": false,
+      "language_tech_id": "-NWtgOQXhnfBYYK1i_mP",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "WSdJUX5iV0Nxm0OfJMuMggyqzHx2"
+    }
+  },
+  "language_tech": {
+    "-NWtgOQXhnfBYYK1i_mP": {
+      "language_tech_id": "-NWtgOQXhnfBYYK1i_mP",
+      "name": "Front End",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62"
+    },
+    "-NWtgnIHpjhc5QZfes1G": {
+      "language_tech_id": "-NWtgnIHpjhc5QZfes1G",
+      "name": "Back End",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62"
+    }
+  }
+}

@@ -10,6 +10,7 @@ const ViewDirectorBasedOnUserAuthStatus = () => {
     if (user) {
       // person is logged in do something...
       // logoutButton();
+      console.warn(user);
       startApp();
     } else {
       // person is NOT logged in
