@@ -1,6 +1,7 @@
 import renderToDOM from '../../utils/renderToDom';
 
-const navBar = () => {
+const navBar = (user) => {
+  console.warn(user);
   const domString = `
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5">
       <div class="container-fluid">
@@ -20,6 +21,7 @@ const navBar = () => {
             </li>
           </ul>
         </div>
+        <span class="welcome">${user.displayName} <em>[${user.uid}]</em></span>
         <div id="logout-form-container"></div>
         </div>
       </nav>`;

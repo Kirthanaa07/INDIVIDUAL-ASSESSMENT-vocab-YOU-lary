@@ -9,9 +9,41 @@ body {
   height: 100vh;
 }
 
+.welcome {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 70px;
+  padding: 20px
+}
+
 #login-form-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1
+}
+
+#content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+
+  .card {
+    width: 400px;
+    margin: 5px;
+  }
+
+  .table {
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
