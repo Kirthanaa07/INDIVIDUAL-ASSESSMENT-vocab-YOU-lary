@@ -57,9 +57,18 @@ const getPublicVocabulary = () => new Promise((resolve, reject) => {
   })
     // then is a function inside promise, input is of type Response
     // response and data are taco
+    // response.json() gets the response body as json
     .then((response) => response.json())
     .then((data) => {
       if (data) {
+        // The Object.values() static method returns an array of a given object's own enumerable string-keyed property values.
+        /* const object1 = {
+        a: 'somestring',
+        b: 42,
+        c: false
+        };
+        console.log(Object.values(object1));
+        // Expected output: Array ["somestring", 42, false] */
         resolve(Object.values(data));
       } else {
         resolve([]);

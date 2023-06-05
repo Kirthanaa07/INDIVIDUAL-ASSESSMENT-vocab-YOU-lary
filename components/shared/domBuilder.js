@@ -6,11 +6,12 @@ const domBuilder = () => {
   <header>
     <div>
       <div id="logo"></div>
-      <div id="add-btn"></div>
       <div id="navigation"></div>
     </div>
   </header>
   <main>
+    <div id="filter-btn">
+    </div>
     <div id="content">
     </div>
   </main>
