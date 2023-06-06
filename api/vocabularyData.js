@@ -77,8 +77,55 @@ const getPublicVocabulary = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+// CREATE MY VOCABULARY
+const createMyVocabulary = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+// GET SINGLE VOCABULARY
+const getMySingleVocabulary = (vocabularyId) => new Promise((resolve, reject) => {
+  // fetch is the function that has two parameters
+  fetch(`${endpoint}/vocabulary/${vocabularyId}.json`, {
+    method: 'GET',
+    headers: {
+      'content-type': 'application/json'
+    }
+  })
+    // then is a function inside promise, input is of type Response
+    // response and data are taco
+    .then((response) => response.json())
+    .then((data) => resolve(data)) // will resolve a single object
+    .catch(reject);
+});
+
+// UPDATE MY VOCABULARY
+const updateMyVocabulary = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary/${payload.vocabulary_id}.json`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    .then((response) => response.json())
+    .then(resolve)
+    .catch(reject);
+});
+
 export {
   getAllVocabulary,
   getMyVocabulary,
-  getPublicVocabulary
+  getPublicVocabulary,
+  createMyVocabulary,
+  updateMyVocabulary,
+  getMySingleVocabulary
 };

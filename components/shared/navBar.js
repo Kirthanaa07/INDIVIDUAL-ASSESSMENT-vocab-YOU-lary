@@ -21,6 +21,7 @@ const navBar = (user) => {
             </li>
           </ul>
         </div>
+        <button id="add-vocabulary-btn" data-bs-toggle="modal" data-bs-target="#vocabulary-modal">Create My Vocabulary</button>
         <span class="welcome">${user.displayName} <em>[${user.uid}]</em></span>
         <div id="logout-form-container"></div>
         </div>

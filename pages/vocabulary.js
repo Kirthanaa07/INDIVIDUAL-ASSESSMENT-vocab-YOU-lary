@@ -14,8 +14,8 @@ const showVocabulary = (array) => {
           <p class="card-text flex-grow-1">${item.definition}</p>
           <hr>
           <div class="d-flex flex-row justify-content-end">
-            <i class="fa fa-solid fa-pen" id="edit-book-btn--${item.vocabulary_id}"></i>
-            <i class="fa fa-solid fa-trash" id="delete-book-btn--${item.vocabulary_id}"></i>
+            <i class="fa fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#vocabulary-modal" id="edit-vocabulary-btn--${item.vocabulary_id}"></i>
+            <i class="fa fa-solid fa-trash" id="delete-vocabulary-btn--${item.vocabulary_id}"></i>
           </div>
         </div>
       </div>`;
