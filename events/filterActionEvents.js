@@ -45,6 +45,25 @@ const communityFilterActionEvents = (user) => {
       document.querySelector('#search-community').value = '';
     }
   });
+  document.querySelector('#sort-community-id').addEventListener('change', () => {
+    const sortValue = document.querySelector('#sort-community-id').value;
+    if (sortValue === 'alphabetically') {
+      getPublicVocabularyWithCategory().then((vocabularies) => {
+        const sortedValue = vocabularies.sort((a, b) => a.title.localeCompare(b.title));
+        showVocabulary(sortedValue, user.uid);
+      });
+    } else if (sortValue === 'newest') {
+      getPublicVocabularyWithCategory().then((vocabularies) => {
+        const sortedValue = vocabularies.sort((a, b) => b.time_submitted.localeCompare(a.time_submitted));
+        showVocabulary(sortedValue, user.uid);
+      });
+    } else if (sortValue === 'oldest') {
+      getPublicVocabularyWithCategory().then((vocabularies) => {
+        const sortedValue = vocabularies.sort((a, b) => a.time_submitted.localeCompare(b.time_submitted));
+        showVocabulary(sortedValue, user.uid);
+      });
+    }
+  });
 };
 
 export {

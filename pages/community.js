@@ -8,10 +8,14 @@ const communityVocabularyFilterActions = (array) => {
     btnString += `<button class="btn btn-success btn-lg mb-4" id="filter-community-btn--${item.category_id}">${item.name}</button>`;
   });
   btnString += '</div>';
-  btnString += `<input class="form-control mr-sm-2"
+  btnString += `<div class="d-flex justify-content-between space-bottom"><input class="form-control mr-sm-2"
                 id="search-community"
                 placeholder="Search Community Vocabulary"
-                aria-label="Search"/>`;
+                aria-label="Search"/><select class="form-control" id="sort-community-id" required>
+                <option value="">Choose Sort</option>
+                <option value="alphabetically">Alphabetically</option>
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option></select></div>`;
   renderToDOM('#filter-actions', btnString);
 };
 

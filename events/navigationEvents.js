@@ -20,7 +20,7 @@ const navigationEvents = (user) => {
     .addEventListener('click', () => {
       getAllCategory().then((categories) => {
         communityVocabularyFilterActions(categories);
-        communityFilterActionEvents();
+        communityFilterActionEvents(user);
       });
       getPublicVocabularyWithCategory().then((vocabularies) => showVocabulary(vocabularies, user.uid));
     });
