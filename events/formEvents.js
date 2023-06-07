@@ -15,14 +15,15 @@ const formEvents = (user) => {
         category_id: document.querySelector('#category_id').value,
         definition: document.querySelector('#definition').value,
         time_submitted: currentDate,
-        user_id: user.uid
+        user_id: user.uid,
+        user_name: user.displayName
       };
 
       createMyVocabulary(payload).then(({ name }) => {
         const patchPayload = { vocabulary_id: name };
 
         updateMyVocabulary(patchPayload).then(() => {
-          getMyVocabularyWithCategory(user.uid).then((vocabularies) => showVocabulary(vocabularies));
+          getMyVocabularyWithCategory(user.uid).then((vocabularies) => showVocabulary(vocabularies, user.uid));
         });
       });
     } else if (e.target.id.includes('update-vocabulary')) {
@@ -36,11 +37,12 @@ const formEvents = (user) => {
         definition: document.querySelector('#definition').value,
         time_submitted: currentDate,
         user_id: user.uid,
+        user_name: user.displayName,
         vocabulary_id: vocabularyId
       };
 
       updateMyVocabulary(payload).then(() => {
-        getMyVocabularyWithCategory(user.uid).then(showVocabulary);
+        getMyVocabularyWithCategory(user.uid).then((data) => showVocabulary(data, user.uid));
       });
     }
   });

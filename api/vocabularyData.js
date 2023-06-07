@@ -121,11 +121,25 @@ const updateMyVocabulary = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+// TODO: DELETE BOOK
+const deleteMyVocabulary = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
 export {
   getAllVocabulary,
   getMyVocabulary,
   getPublicVocabulary,
   createMyVocabulary,
   updateMyVocabulary,
-  getMySingleVocabulary
+  getMySingleVocabulary,
+  deleteMyVocabulary
 };

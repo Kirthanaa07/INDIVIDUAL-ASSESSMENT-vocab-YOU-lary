@@ -27,7 +27,7 @@ const domBuilder = () => {
       </div>
     </div>
 
-    <div id="filter-btn"></div>
+    <div id="filter-actions"></div>
     <div id="content"></div>
   </main>
   `;
