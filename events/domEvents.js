@@ -1,9 +1,8 @@
 import { getMyVocabularyWithCategory, getPublicVocabularyWithCategory } from '../api/mergedData';
 import { showVocabulary } from '../pages/vocabulary';
 import addVocabulariesForm from '../components/forms/addVocabulariesForm';
-import {
-  getMySingleVocabulary, deleteMyVocabulary
-} from '../api/vocabularyData';
+import addCategoriesForm from '../components/forms/addCategoriesForm';
+import { getMySingleVocabulary, deleteMyVocabulary } from '../api/vocabularyData';
 
 const domEvents = (user) => {
   document.querySelector('#content').addEventListener('click', (e) => {
@@ -44,6 +43,9 @@ const domEvents = (user) => {
     // CLICK EVENT FOR SHOWING FORM FOR ADDING A VOCABULARY ITEM
     if (e.target.id.includes('add-vocabulary-btn')) {
       addVocabulariesForm(user.uid);
+    }
+    if (e.target.id.includes('add-category-btn')) {
+      addCategoriesForm();
     }
   });
 };

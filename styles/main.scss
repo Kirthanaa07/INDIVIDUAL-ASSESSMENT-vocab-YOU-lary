@@ -3,15 +3,32 @@
 
 
 body {
-  background-color: aquamarine;
+  background: linear-gradient(90deg, #7B0BE6 0%, #22E5D2 0%, #7B0BE6 100%, #FCEA42 100%);
   color: black;
-  width: 100vw;
-  height: 100vh;
 }
 
 .welcome {
   color: rgb(255, 255, 255);
   margin: 10px;
+}
+
+// login, logout button
+#google-auth {
+  display: flex;
+  text-align: center;
+  background: yellow;
+  color: blue;
+  border: 14px inset rgba(248, 105, 12, 0.72);
+  border-radius: 100px;
+  width: 100px;
+  height: 50px;
+}
+
+#login-text {
+  font-size: 48px;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 #app {
@@ -20,7 +37,7 @@ body {
 }
 
 main {
-  margin-top: 70px;
+  margin-top: 100px;
   padding: 20px
 }
 
@@ -28,7 +45,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1
+}
+
+.flex-fill {
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
 }
 
 #content {
@@ -54,4 +77,12 @@ main {
 
 .actions i {
   cursor: pointer;
+}
+
+.card {
+  background: linear-gradient(307deg, #52D6C9 0%, #FAEB79 100%);
+}
+
+#content {
+  background-color: black;
 }
