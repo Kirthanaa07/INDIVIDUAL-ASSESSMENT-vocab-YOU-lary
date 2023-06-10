@@ -20,7 +20,7 @@ Any user can understand the function of the website and access them with their G
 ## List of features
 * User can login with their unique Google-auth and create, delete, update vocabularies.
 * User can create their own categories too.
-* User can make their entries private and public.
+* User can make their entries private and public. They could choose both.
 
 ## ScreenShot of the project
 ![Screenshot](VocabprojectScreenshot.png)
