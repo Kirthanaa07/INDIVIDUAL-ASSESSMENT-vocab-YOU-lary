@@ -3,8 +3,106 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background: black;
+  color: black;
+}
+
+.welcome {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+// login, logout button
+#google-auth {
+  display: flex;
   text-align: center;
+  background:white;
+  color:black;
+  width: 100px;
+  height: 50px;
+}
+
+#login-text {
+  font-size: 48px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
   margin-top: 100px;
+  padding: 20px
+}
+
+#login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-fill {
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: black;
+
+  .card {
+    width: 364px;
+    margin: 5px;
+  }
+
+  .table {
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.nav-css {
+  background-color: black;
+  color:white;
+  font-weight: bold;
+}
+
+.space-bottom {
+  margin-bottom: 20px;
+}
+
+.actions i {
+  cursor: pointer;
+}
+
+.card {
+  background: linear-gradient(307deg, #52D6C9 0%, #FAEB79 100%);
+}
+
+.filter-btn-css {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 26px;
+  box-shadow: 35px 35px 68px 0px rgba(30, 171, 189, 0.5), inset -8px -8px 16px 0px rgba(30, 171, 189, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  color: black;
+}
+
+.create-btn {
+  background: rgba(133, 225, 34, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color:white;
+  font-weight:bold;
 }

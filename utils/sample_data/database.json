@@ -1,0 +1,94 @@
+{
+  "vocabulary": {
+    "-NWte5ikMaBe-R8glBLk": {
+      "vocabulary_id": "-NWte5ikMaBe-R8glBLk",
+      "title": "Attribute",
+      "definition": "Attributes are special words used inside the opening tag to control an HTML Element's behavior.",
+      "isPublic": false,
+      "category_id": "-NWtgOQXhnfBYYK1i_mP",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWzWBCZiTh1Fk5j5lJF": {
+      "vocabulary_id": "-NWzWBCZiTh1Fk5j5lJF",
+      "title": "Cookies",
+      "definition": "Nope, we are not talking about the source of all that is good, chocolatey, and sugary in the world... It is the data sent by an Internet server to a browser. Each time the browser accesses the same server, it sends the data back as a means of tracking how (and how often) it accesses the server.",
+      "isPublic": false,
+      "category_id": "-NWtgOQXhnfBYYK1i_mP",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWzWg2mGvIoABE15yHR": {
+      "vocabulary_id": "-NWzWg2mGvIoABE15yHR",
+      "title": "Crawl",
+      "definition": "This is the process used by search engines that involves sending a bot to your website to gather information on pages that exist and no longer exist and update their database on the information it has gathered. It is necessary to get indexed by search engines and get found.",
+      "isPublic": true,
+      "category_id": "-NWtgnIHpjhc5QZfes1G",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWzX1kaAjormcg6z6Cb": {
+      "vocabulary_id": "-NWzX1kaAjormcg6z6Cb",
+      "title": "DOM",
+      "definition": "The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree.",
+      "isPublic": true,
+      "category_id": "-NWtgOQXhnfBYYK1i_mP",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWzXbyjntVyAG9PmbTp": {
+      "vocabulary_id": "-NWzXbyjntVyAG9PmbTp",
+      "title": "Domain",
+      "definition": "The address for a website is entered into the browser.",
+      "isPublic": false,
+      "category_id": "-NWtgnIHpjhc5QZfes1G",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWtpbtAHdyWMKCzuXsT": {
+      "vocabulary_id": "-NWtpbtAHdyWMKCzuXsT",
+      "title": "Browser",
+      "definition": "The program you use to access the Web — such as Chrome, Firefox, or Safari.",
+      "isPublic": false,
+      "category_id": "-NWzXiIM5mXh7--WIvcj",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "WSdJUX5iV0Nxm0OfJMuMggyqzHx2",
+      "user_name": "kirthana Sugumaran"
+    },
+    "WSdJUX5iV0Nxm0OfJMuMggyqzHx2": {
+      "vocabulary_id": "WSdJUX5iV0Nxm0OfJMuMggyqzHx2",
+      "title": "Documentation",
+      "definition": "Documentation is essentially the central point of reference for anyone involved in managing, maintaining or using a website or piece of software and provides information on requirements, architecture and design, technical properties, information for the end user.",
+      "isPublic": false,
+      "category_id": "-NWzXiIM5mXh7--WIvcj",
+      "time_submitted": "2023-06-02T01:26:46.880Z",
+      "user_id": "WSdJUX5iV0Nxm0OfJMuMggyqzHx2",
+      "user_name": "kirthana Sugumaran"
+    }
+  },
+  "category": {
+    "-NWtgOQXhnfBYYK1i_mP": {
+      "category_id": "-NWtgOQXhnfBYYK1i_mP",
+      "name": "Front End",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWtgnIHpjhc5QZfes1G": {
+      "category_id": "-NWtgnIHpjhc5QZfes1G",
+      "name": "Back End",
+      "user_id": "gP7OdsKBw0PQhmbn3nVLdK4NrM62",
+      "user_name": "Kirthana A"
+    },
+    "-NWzXiIM5mXh7--WIvcj": {
+      "category_id": "-NWzXiIM5mXh7--WIvcj",
+      "name": "Common",
+      "user_id": "WSdJUX5iV0Nxm0OfJMuMggyqzHx2",
+      "user_name": "kirthana Sugumaran"
+    }
+  }
+}
