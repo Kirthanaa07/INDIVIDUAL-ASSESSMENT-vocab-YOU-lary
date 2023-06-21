@@ -30,4 +30,4 @@ Any user can understand the function of the website and access them with their G
 <https://github.com/Kirthuarun/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary>
 
 ## Link to Loom video walkthrough of the app
-<https://www.loom.com/share/98443c79c81a4201a8a3650bb154dd97>
+<https://www.loom.com/share/9c8a5af89fce4f6cafc2f62e11cdd77d>
